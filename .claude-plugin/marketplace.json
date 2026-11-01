@@ -1,0 +1,16 @@
+{
+  "name": "plugin-software-architect",
+  "owner": {
+    "name": "ADRenaline Suite"
+  },
+  "metadata": {
+    "description": "Marketplace with the Software Architect plugin."
+  },
+  "plugins": [
+    {
+      "name": "plugin-software-architect",
+      "source": "./",
+      "description": "Evaluates an architecture and writes the 4+1 views and the arc42 manual. Each section is plain language plus a diagram."
+    }
+  ]
+}

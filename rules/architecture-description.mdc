@@ -1,0 +1,14 @@
+---
+description: Each explained section is plain language plus one diagram, and the arc42 manual cites the 4+1
+alwaysApply: true
+---
+
+# Architecture description
+
+Before writing, read `skills/describe-architecture/SKILL.md` and only the reference for this situation.
+
+A section that explains a view opens with a few plain sentences and one Mermaid diagram. The diagram uses only parts a source named. It is not called UML. A process view also asks `plugin-uml-diagrams` for a UML 2 sequence. A physical view also asks for a UML 2 deployment. Link the `.svg`.
+
+`/arch-4plus1` is one file with five sections: logical, development, process, physical, scenarios. `/arch-arc42` cites that file, the accepted ADRs, and the accepted quality scenarios. It does not copy them. A missing citation is a gap and the file stays `proposed`.
+
+Do not invent a part. Do not write the use case, the contract, the threat model, the data model, or the domain model.

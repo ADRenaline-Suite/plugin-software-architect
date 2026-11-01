@@ -1,0 +1,14 @@
+---
+description: An evaluation needs a six-part scenario, two options, and a diagram of the choice
+alwaysApply: true
+---
+
+# Architecture evaluation
+
+Before writing, read `skills/evaluate-architecture/SKILL.md` and only the reference for this situation.
+
+The quality name is one of the nine in ISO/IEC 25010:2023. The scenario has six parts: source of the stimulus, stimulus, environment, artifact, response, and response measure. Fewer than two options leaves the file `proposed`.
+
+The tradeoff diagram shows only options that were named. It is not a UML diagram. A UML view needed to judge the options is asked of `plugin-uml-diagrams`.
+
+The ADR uses status, context, decision, and consequences. It does not rewrite the scenario.

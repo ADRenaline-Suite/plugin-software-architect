@@ -1,0 +1,9 @@
+{
+  "name": "plugin-software-architect",
+  "description": "Evaluates an architecture and writes the 4+1 views and the arc42 manual. Each section is plain language plus a diagram.",
+  "version": "0.0.1",
+  "author": { "name": "d-mente" },
+  "license": "MIT",
+  "repository": "https://github.com/ADRenaline-Suite/plugin-software-architect",
+  "keywords": ["architecture", "4plus1", "arc42", "adr", "evaluation"]
+}
