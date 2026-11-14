@@ -55,7 +55,7 @@ Un hueco que no pide escribir nada se queda en una línea.
 
 ## Entrega
 
-La carpeta es `adrenaline/software-architect/` en la raíz del proyecto. Si `.cursor/adrenaline.json` tiene `outputDirs["plugin-software-architect"]` con una ruta relativa, sin `..` y no absoluta, se usa esa. Si falta el archivo, la clave o una ruta válida, se usa `adrenaline/software-architect/` y, en el último caso, se dice. Si `adrenaline/software-architect/` aún no existe y `software-architect/` en la raíz ya tiene el `ORIGIN.json` o el `STATUS.md` de este plugin, se sigue escribiendo ahí y se dice. Crea la carpeta si no existe. No escribas fuera de ella.
+La carpeta es `adrenaline/software-architect/` en la raíz del proyecto. Si `.cursor/adrenaline.json` tiene `outputDirs["plugin-software-architect"]` con una ruta relativa, sin `..` y no absoluta, se usa esa. Si falta el archivo, la clave o una ruta válida, se usa `adrenaline/software-architect/` y, en el último caso, se dice. Si `adrenaline/software-architect/` aún no existe y `software-architect/` en la raíz ya tiene el `ORIGIN.json` o el `STATUS.md` de este plugin, se sigue escribiendo ahí y se dice. Crea la carpeta si no existe. No escribas fuera de ella. Si la persona nombra un proyecto, una app, un servicio o un dominio, el archivo de ese asunto va en `<asunto>/`. Un archivo de todo el producto se queda en la raíz de la salida. `<NNN>` es el siguiente libre de toda la carpeta. La celda `archivo` es `<asunto>/<archivo>` cuando hay asunto (`adrenaline/software-architect/008-adr-asunto-subcarpeta.md`).
 
 El archivo es `<NNN>-<tipo>-<tema>.md`. `<NNN>` es el siguiente entero libre, de tres dígitos, y no se reutiliza. `<tipo>` es el id en inglés de la referencia.
 

@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+
+### Added
+
+- One agent, `plugin-software-architect`. It follows this plugin's skills and names when to ask another plugin. The method stays in the skill.
+
 ## [0.0.1] - 2026-10-31
 
 ### Changed

@@ -13,6 +13,8 @@ If `adrenaline/software-architect/` does not exist yet and `software-architect/`
 
 Create the folder if it does not exist. Do not write anywhere else.
 
+When the person names one project, app, service, or domain, put that subject's files in `<subject>/` (kebab-case, the name they used). A file about the whole product stays at this folder's root. `<NNN>` is the next free number in the whole output folder. `STATUS.md` and `ORIGIN.json` stay at the root. The `archivo` cell is `<subject>/<file>` when there is a subject. This is `adrenaline/software-architect/008-adr-asunto-subcarpeta.md`.
+
 Write the artifact in the language of the request. If the request names a language, use that one. Otherwise use the language the request is written in. Keep names the person already used. The type in the file name stays the English piece id. `STATUS.md` columns stay `N`, `archivo`, `estado`, `sustituye`, `notas`.
 
 Keep `ORIGIN.json` in that folder, beside `STATUS.md`. The fields are `suite` `ADRenaline-Suite`, `plugin` `plugin-software-architect`, `repository` `https://github.com/ADRenaline-Suite/plugin-software-architect`, and `convention` `adr-001`. It is not an `<NNN>` file and it has no row in `STATUS.md`. Write it when the folder is created, and again only if it is missing or a field differs.

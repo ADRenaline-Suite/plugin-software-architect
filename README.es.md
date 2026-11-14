@@ -112,6 +112,8 @@ Portable, para cualquier agente que siga [Agent Skills](https://agentskills.io/s
 
 Cursor y Claude Code: los commands de arriba. En Cursor, `/arch-4plus1`. En Claude Code, `/plugin-software-architect:arch-4plus1`.
 
+- Un agente, `plugin-software-architect`. Sigue los skills de este plugin y dice cuándo pedir otro plugin. El método se queda en el skill.
+
 Solo Cursor: las rules `output-folder`, `architecture-description` y `architecture-evaluation`. Claude Code no carga rules. Las mismas restricciones están en los skills.
 
 ## Instalar

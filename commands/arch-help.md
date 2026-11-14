@@ -1,6 +1,6 @@
 ---
 name: arch-help
-description: "ADRenaline. Help: catalog of plugin-software-architect (skills, rules, commands)."
+description: "ADRenaline. Help: catalog of plugin-software-architect (skills, rules, commands, agents)."
 ---
 
 # Help — ADRenaline Software Architect
@@ -49,6 +49,10 @@ Keep the section headings, in this order: Plugin, Commands, Skills, Rules, then 
 - [**output-folder**](https://github.com/ADRenaline-Suite/plugin-software-architect/blob/main/rules/output-folder.mdc) — Every file goes in `adrenaline/software-architect/` (or in `outputDirs["plugin-software-architect"]` of `.cursor/adrenaline.json`). The artifact follows the language of the request.
 - [**architecture-description**](https://github.com/ADRenaline-Suite/plugin-software-architect/blob/main/rules/architecture-description.mdc) — Each explained section is plain language plus one diagram. The arc42 manual cites the 4+1.
 - [**architecture-evaluation**](https://github.com/ADRenaline-Suite/plugin-software-architect/blob/main/rules/architecture-evaluation.mdc) — A scenario has six parts. Fewer than two options leaves the file proposed.
+
+## Agents
+
+- [**plugin-software-architect**](https://github.com/ADRenaline-Suite/plugin-software-architect/blob/main/agents/plugin-software-architect.md) — Use when the request asks what the system is, how the code is organized, how the parts call each other, where they run, or which architecture option to pick.
 
 ## Output
 

@@ -47,7 +47,7 @@ A gap that asks for nothing to be typed stays one line.
 
 ## Delivery
 
-The folder is `adrenaline/software-architect/` at the project root. If `.cursor/adrenaline.json` has `outputDirs["plugin-software-architect"]` set to a relative path, without `..` and not absolute, use that path. If the file, the key, or a valid path is missing, use `adrenaline/software-architect/` and, in the last case, say so. If `adrenaline/software-architect/` does not exist yet and `software-architect/` at the project root already has this plugin's `ORIGIN.json` or `STATUS.md`, keep writing there and say so. Create the folder if it does not exist. Do not write outside it.
+The folder is `adrenaline/software-architect/` at the project root. If `.cursor/adrenaline.json` has `outputDirs["plugin-software-architect"]` set to a relative path, without `..` and not absolute, use that path. If the file, the key, or a valid path is missing, use `adrenaline/software-architect/` and, in the last case, say so. If `adrenaline/software-architect/` does not exist yet and `software-architect/` at the project root already has this plugin's `ORIGIN.json` or `STATUS.md`, keep writing there and say so. Create the folder if it does not exist. Do not write outside it. When the person names one project, app, service, or domain, put that subject's file in `<subject>/`. A file about the whole product stays at the output root. `<NNN>` is the next free number in the whole output folder. The `archivo` cell is `<subject>/<file>` when there is a subject (`adrenaline/software-architect/008-adr-asunto-subcarpeta.md`).
 
 The file is `<NNN>-<type>-<topic>.md`. `<NNN>` is the next free integer, three digits, and it is not reused. `<type>` is the English piece id from the reference.
 
